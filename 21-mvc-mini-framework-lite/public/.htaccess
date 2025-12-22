@@ -1,0 +1,7 @@
+# .htaccess - Enable clean URLs
+# Date created: 2025-12-22
+# Created by: Michael Monteith
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
