@@ -1,4 +1,7 @@
 <?php
+// index.php - This gives you a dynamic menu of all topic folders
+// Date created: 2025-12-22 
+// Created by: Michael Monteith 
 
 $baseDir = realpath(__DIR__ . '/..');
 $folders = glob($baseDir . '/*', GLOB_ONLYDIR);
