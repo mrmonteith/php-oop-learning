@@ -1,14 +1,12 @@
-# Namespaces & Autoloading
+# Exceptions
 
 ## 📘 Overview
-This example demonstrates how to organize code with namespaces and load classes automatically using a simple autoloader.
+This example demonstrates throwing and catching exceptions in PHP, and how to handle error conditions cleanly.
 
 ## 🧩 Files
-- `src/Models/User.php` — `App\Models\User` class  
-- `src/Services/UserService.php` — `App\Services\UserService` class using `User`  
-- `example.php` — sets up an autoloader and uses both classes  
+- `example.php` — defines a `divide()` function that throws an exception and shows `try/catch` usage  
 
 ## ▶️ Running
 Visit:
 
-http://localhost:8000/../08-namespaces-and-autoloading/example.php
+http://localhost:8000/../09-exceptions/example.php
