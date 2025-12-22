@@ -1,13 +1,28 @@
-# Singleton Pattern
+# Design Patterns
 
 ## 📘 Overview
-This example demonstrates the Singleton design pattern, which restricts a class to a single shared instance.
+This section contains examples of common object‑oriented design patterns implemented in PHP.  
+Each pattern includes:
 
-## 🧩 Files
-- `Singleton.php` — class implementing the Singleton pattern  
-- `example.php` — runnable demonstration using `Singleton::getInstance()`  
+- One or more PHP classes
+- A runnable `example.php`
+- A focused `README.md` explaining the pattern
+
+These examples are intentionally simple and clear, making them ideal for learning and reference.
+
+## 📂 Patterns Included
+
+- **Singleton** — Ensure only one instance of a class exists  
+- **Factory** — Create objects without exposing creation logic  
+- **Strategy** — Swap algorithms at runtime  
+- **Observer** — Notify multiple objects when something changes  
+
+More patterns can be added over time.
 
 ## ▶️ Running
-Visit:
+Each pattern folder contains its own `example.php`.  
+Start your PHP server and visit the example directly:
 
-http://localhost:8000/../10-design-patterns/Singleton/example.php
+```
+http://localhost:8000/../10-design-patterns/{PatternName}/example.php
+```
