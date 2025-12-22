@@ -10,4 +10,4 @@ This example demonstrates class inheritance in PHP, where a child class extends 
 
 ## ▶️ Running
 Visit:
-
+http://localhost:8000/../04-inheritance/example.php
