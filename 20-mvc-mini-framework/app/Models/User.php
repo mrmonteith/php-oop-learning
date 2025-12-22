@@ -5,10 +5,12 @@
 
 class User
 {
-    public $name = "Michael";
+    public $name;
+    public $email;
 
-    public function getName()
+    public function __construct($name = "Michael", $email = "michael@example.com")
     {
-        return $this->name;
+        $this->name = $name;
+        $this->email = $email;
     }
 }
