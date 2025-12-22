@@ -1,0 +1,15 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Composer
+/vendor/
+composer.lock
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
