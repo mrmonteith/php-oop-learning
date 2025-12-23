@@ -28,6 +28,3 @@ phpunit CalculatorTest.php
 ```
 ```
 
-Next in the progression would be **50‑php-database/** (PDO basics, prepared statements, transactions, ORM simulation).  
-
-👉 Do you want me to scaffold **50‑php-database/** next?
