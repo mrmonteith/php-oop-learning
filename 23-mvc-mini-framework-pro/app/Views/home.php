@@ -5,4 +5,4 @@
 <h1>Welcome to the Pro MVC Framework</h1>
 
 <p><strong>Name:</strong> <?= htmlspecialchars($user->name) ?></p>
-<p><strong>Email:</strong> <?= htmlspecialchars($user->
+<p><strong>Email:</strong> <?= htmlspecialchars($user->email) ?></p>
