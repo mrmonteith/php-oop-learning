@@ -41,7 +41,7 @@ cd 40-php-testing/01-basic-tests
 #### Mocking
 ```bash
 cd 40-php-testing/02-mocking
-../../vendor/bin/phpunit DependencyMockTest.php
+../../vendor/bin/phpunit UserServiceTest.php
 ```
 
 *(replace `DependencyMockTest.php` with the actual test filename in that folder)*
