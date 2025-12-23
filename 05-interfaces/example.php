@@ -1,11 +1,11 @@
 <?php
-// example.php - Demonstrates interface implementation
-// Date created: 2025-12-22
+// example.php - Demonstrates interfaces
+// Date created: 2025-12-23
 // Created by: Michael Monteith
 
-require_once "FileLogger.php";
+require_once __DIR__ . "/FileLogger.php";
 
 $logger = new FileLogger();
+$logger->log("Hello from interface example");
 
-echo "<h1>Interfaces Example</h1>";
-echo "<p>{$logger->log('System started')}</p>";
+echo "<p>Message logged to file.</p>";
