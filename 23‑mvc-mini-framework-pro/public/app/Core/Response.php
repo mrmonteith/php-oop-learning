@@ -12,6 +12,11 @@ class Response
     public function setContent($content)
     {
         $this->content = $content;
-        return $this->content;
+        return $this; // return self for chaining
+    }
+
+    public function send()
+    {
+        echo $this->content;
     }
 }
