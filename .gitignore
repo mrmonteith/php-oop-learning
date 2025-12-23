@@ -8,6 +8,7 @@ composer.lock
 
 # Logs
 *.log
+05-interfaces/log.txt
 
 # IDE
 .idea/
