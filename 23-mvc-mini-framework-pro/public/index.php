@@ -23,4 +23,4 @@ $request = new App\Core\Request();
 $response = new App\Core\Response();
 
 $router = new App\Core\Router($routes, $container);
-echo $router->dispatch($request, $response);
+$router->dispatch($request, $response)->send();
