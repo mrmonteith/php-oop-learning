@@ -6,6 +6,9 @@
 $pdo = new PDO("sqlite:" . __DIR__ . "/database.sqlite");
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
+// Ensure the table exists
+$pdo->exec("CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT)");
+
 $stmt = $pdo->prepare("INSERT INTO users (name) VALUES (:name)");
 $stmt->execute([':name' => 'Alice']);
 
