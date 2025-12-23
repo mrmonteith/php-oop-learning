@@ -12,3 +12,15 @@ This version expands the Lite MVC with:
 ## ▶️ Running
 Start the PHP server inside the `public/` folder:
 
+php -S localhost:8000
+
+Then visit:
+
+http://localhost:8000
+
+## 📂 Structure
+- `public/` — entry point and .htaccess  
+- `app/Core/` — framework core (autoloader, router, request/response, base classes)  
+- `app/Controllers/` — controller classes  
+- `app/Models/` — model classes  
+- `app/Views/` — templates and layout  
